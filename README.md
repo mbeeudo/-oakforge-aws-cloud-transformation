@@ -1,6 +1,6 @@
 # 🏗️ OakForge Solutions — AWS Cloud Transformation
 
-> An end-to-end AWS cloud transformation case study for a growing technology and digital services company.
+> A real-world-inspired AWS cloud transformation case study for a growing technology and digital services company.
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Transformation-orange)
 ![Cloud](https://img.shields.io/badge/Focus-Cloud%20Engineering-blue)
