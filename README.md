@@ -12,9 +12,11 @@
 
 ## 📌 About the Project
 
-**OakForge Solutions** is a fictional growing technology and digital services company whose legacy IT environment is becoming increasingly difficult to manage, secure, and scale.
+**OakForge Solutions** is a fictional growing technology and digital services company whose legacy IT environment is becoming increasingly difficult to manage, secure, and scale as the business expands.
 
-I created this case study to apply what I'm learning in AWS to a **single business scenario from beginning to end**, rather than building disconnected cloud projects.
+I created OakForge as a realistic business case study to take what I'm learning through AWS re/Start beyond individual labs and concepts, and apply it to a single business scenario from beginning to end.
+
+This case study simulates an *end-to-end AWS Cloud Transformation*, where each project addresses a specific business or technical challenge while contributing to a larger modernization strategy.
 
 As the Cloud Professional responsible for the transformation, my goal is to design and implement a:
 
