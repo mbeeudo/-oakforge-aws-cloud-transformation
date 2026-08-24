@@ -149,3 +149,27 @@ Security + Monitoring + IaC + Testing
        │
        ▼
 Complete Cloud Transformation
+
+## ☁️ Technologies
+
+**AWS:**  
+EC2 • S3 • VPC • IAM • Lambda • DynamoDB • RDS • CloudWatch • SNS • Cognito • Amplify • Bedrock • Rekognition • Lex • Translate
+
+**Tools:**  
+Python • Bash • Git • GitHub • Terraform
+
+## 🔎 Explore the Projects
+
+Each project documents:
+
+**Business Problem → Architecture → Implementation → Security → Testing → Evidence → Lessons Learned**
+
+Start with **[Project 01 — Cloud Cost Intelligence](./01-cost-intelligence/)**.
+
+---
+
+### 📚 Learning in Public
+
+This transformation is being built alongside my AWS re/Start journey at CIL Academy, applying what I learn to a single business scenario from beginning to end.
+
+**Status:** 🟡 In Progress
