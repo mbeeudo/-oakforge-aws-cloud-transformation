@@ -1,0 +1,41 @@
+# 01 — AWS Cloud Cost Intelligence
+
+## Status
+
+🟡 In Progress
+
+## Business Problem
+
+OakForge Solutions lacks visibility into AWS spending
+and wants to receive alerts before costs become a problem.
+
+## Objective
+
+Build a cost monitoring and budget alert system using AWS.
+
+## AWS Services
+
+- AWS Budgets
+- AWS Cost Explorer
+- Amazon SNS
+- IAM
+
+## Architecture
+
+Coming soon.
+
+## Implementation
+
+Coming soon.
+
+## Testing
+
+Coming soon.
+
+## Evidence
+
+Coming soon.
+
+## Lessons Learned
+
+Coming soon.
