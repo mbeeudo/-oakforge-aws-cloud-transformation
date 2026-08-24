@@ -151,6 +151,9 @@ Security + Monitoring + IaC + Testing
 Complete Cloud Transformation
 
 ## ☁️ Technologies
+```
+
+## ☁️ Technologies
 
 **AWS:**  
 EC2 • S3 • VPC • IAM • Lambda • DynamoDB • RDS • CloudWatch • SNS • Cognito • Amplify • Bedrock • Rekognition • Lex • Translate
