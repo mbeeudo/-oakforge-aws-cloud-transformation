@@ -69,7 +69,7 @@ The transformation aims to help OakForge:
 
 The transformation consists of **nine connected projects**.
 
-### Phase 1 — Foundation
+### Phase 1 – Foundation
 
 **01. Cloud Cost Intelligence & Budget Alerts**
 
@@ -79,19 +79,19 @@ Establish cost visibility, budgets, and proactive spending alerts.
 
 Introduce automated data protection and recovery capabilities.
 
-### Phase 2 — Operations
+### Phase 2 – Operations
 
 **03. Website Availability Monitoring**
 
 Monitor application availability and notify the team when outages occur.
 
-### Phase 3 — Application Development
+### Phase 3 – Application Development
 
 **06. Serverless Customer Application**
 
 Build a customer-facing application using managed and serverless AWS services.
 
-### Phase 4 — AI & Automation
+### Phase 4 – AI & Automation
 
 **04. AI Customer Inquiry Management**
 
@@ -109,7 +109,7 @@ Automatically analyze uploaded product images.
 
 Use conversational AI and translation services to support international customers.
 
-### Phase 5 — Secure Infrastructure
+### Phase 5 – Secure Infrastructure
 
 **09. Secure Three-Tier AWS Architecture**
 
@@ -165,7 +165,7 @@ Each project documents:
 
 **Business Problem → Architecture → Implementation → Security → Testing → Evidence → Lessons Learned**
 
-Start with **[Project 01 — AWS Cloud Cost Intelligence](https://github.com/mbeeudo/-oakforge-aws-cloud-transformation/blob/main/01%20-%20AWS%20Cloud%20Cost%20Intelligence)**.
+Start with **[Project 01 – AWS Cloud Cost Intelligence](https://github.com/mbeeudo/-oakforge-aws-cloud-transformation/blob/main/01%20-%20AWS%20Cloud%20Cost%20Intelligence)**.
 
 ---
 
