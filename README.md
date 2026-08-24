@@ -167,7 +167,7 @@ Each project documents:
 
 **Business Problem → Architecture → Implementation → Security → Testing → Evidence → Lessons Learned**
 
-Start with **[Project 01 — Cloud Cost Intelligence](./01-cost-intelligence/)**.
+Start with **[Project 01 — AWS Cloud Cost Intelligence](01 - AWS Cloud Cost Intelligence)**.
 
 ---
 
