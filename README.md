@@ -34,16 +34,16 @@ AWS environment while introducing serverless and AI-powered capabilities to impr
 
 # 🏢 The Business Problem
 
-As OakForge grows, the company is experiencing:
+OakForge Solutions is experiencing:
 
 - 💰 Unpredictable cloud costs
 - 🛡️ Weak data protection and disaster recovery
-- 📊 Poor visibility into application availability
+- 📊 Limited application availability monitoring
 - 🤖 Manual customer support processes
 - 📦 Inefficient inventory management
 - 🖼️ Large volumes of product/media images
-- 🌍 Customers who speak different languages
-- 🔐 Infrastructure that requires stronger security and isolation
+- 🌍 Customers speaking different languages
+- 🔐 Infrastructure that needs stronger security and isolation
 
 Management has therefore approved an **AWS Cloud Transformation Program**.
 
