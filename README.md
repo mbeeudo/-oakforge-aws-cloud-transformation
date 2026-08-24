@@ -148,7 +148,6 @@ Security + Monitoring + IaC + Testing
        ▼
 Complete Cloud Transformation
 
-## ☁️ Technologies
 ```
 
 ## ☁️ Technologies
