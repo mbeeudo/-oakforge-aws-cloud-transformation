@@ -167,7 +167,7 @@ Each project documents:
 
 **Business Problem → Architecture → Implementation → Security → Testing → Evidence → Lessons Learned**
 
-Start with **[Project 01 — AWS Cloud Cost Intelligence](01 - AWS Cloud Cost Intelligence)**.
+Start with **[Project 01 — AWS Cloud Cost Intelligence](https://github.com/mbeeudo/-oakforge-aws-cloud-transformation/blob/main/01%20-%20AWS%20Cloud%20Cost%20Intelligence)**.
 
 ---
 
