@@ -1,33 +1,10 @@
-# 🛡️ OakForge Cloud Cost Security & Intelligence
+# OakForge Cloud Cost Security & Intelligence
 
 **AWS Cloud Transformation — Project 1**
 
-
-
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws&logoColor=white)
-
-
-
-
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-
-
-
-
-![Security](https://img.shields.io/badge/Focus-Cost%20%2B%20Security-blueviolet)
-
-
-
-
-![Python](https://img.shields.io/badge/Python-Boto3-3776AB?logo=python&logoColor=white)
-
-
-
 > A practical AWS solution for detecting, investigating, and responding to unexpected cloud spending.
 
----
-
-## 📋 Overview
+## Overview
 
 OakForge Solutions is moving its workloads to AWS and needs better visibility into cloud spending.
 
@@ -37,7 +14,7 @@ The project answers one key question:
 
 The solution combines **cost monitoring, operational monitoring, and security logging** to determine whether unexpected spending is caused by legitimate business growth, an operational mistake, or potentially suspicious activity.
 
-## ⚠️ Business Problem
+## Business Problem
 
 Unexpected AWS costs can result from:
 
