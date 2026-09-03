@@ -55,14 +55,14 @@ flowchart TD
     K --> M["⚠️ Operational Error"]
     K --> N["🚨 Potential Security Incident"]
 
-    classDef source fill:#2f6fb3,stroke:#1e4a7a,color:#ffffff,stroke-width:2px
-    classDef cost fill:#2e9e5b,stroke:#1e6e3e,color:#ffffff,stroke-width:2px
-    classDef ops fill:#d4a017,stroke:#a67c00,color:#ffffff,stroke-width:2px
-    classDef sec fill:#c0504d,stroke:#8f3936,color:#ffffff,stroke-width:2px
-    classDef investigate fill:#7b5cb8,stroke:#5c4189,color:#ffffff,stroke-width:2px
-    classDef good fill:#2e9e5b,stroke:#1e6e3e,color:#ffffff,stroke-width:2px
-    classDef warn fill:#d4a017,stroke:#a67c00,color:#ffffff,stroke-width:2px
-    classDef bad fill:#c0504d,stroke:#8f3936,color:#ffffff,stroke-width:2px
+    classDef source fill:#87CEEB,stroke:#4a90a4,color:#ffffff,stroke-width:2px
+    classDef cost fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
+    classDef ops fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
+    classDef sec fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
+    classDef investigate fill:#800080,stroke:#4d004d,color:#ffffff,stroke-width:2px
+    classDef good fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
+    classDef warn fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
+    classDef bad fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
 
     class A source
     class B,E,F,G cost
