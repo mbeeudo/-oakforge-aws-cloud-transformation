@@ -55,23 +55,20 @@ flowchart TD
     K --> M["⚠️ Operational Error"]
     K --> N["🚨 Potential Security Incident"]
 
-    classDef source fill:#87CEEB,stroke:#4a90a4,color:#ffffff,stroke-width:2px
-    classDef cost fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
-    classDef ops fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
-    classDef sec fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
-    classDef investigate fill:#800080,stroke:#4d004d,color:#ffffff,stroke-width:2px
-    classDef good fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
-    classDef warn fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
-    classDef bad fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
-
-    class A source
-    class B,E,F,G cost
-    class C,H,I ops
-    class D,J sec
-    class K investigate
-    class L good
-    class M warn
-    class N bad
+    style A fill:#87CEEB,stroke:#4a90a4,color:#ffffff,stroke-width:2px
+    style B fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
+    style C fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
+    style D fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
+    style E fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
+    style F fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
+    style G fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
+    style H fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
+    style I fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
+    style J fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
+    style K fill:#800080,stroke:#4d004d,color:#ffffff,stroke-width:2px
+    style L fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
+    style M fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
+    style N fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
 ```
 
 ## 🧰 AWS Services
