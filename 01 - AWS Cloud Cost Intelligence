@@ -1,41 +1,168 @@
-# 01 — AWS Cloud Cost Intelligence
+# OakForge Cloud Cost Security & Intelligence
 
-## Status
+**AWS Cloud Transformation — Project 1**
 
-🟡 In Progress
+> A practical AWS solution for detecting, investigating, and responding to unexpected cloud spending.
+
+## Overview
+
+OakForge Solutions is moving its workloads to AWS and needs better visibility into cloud spending.
+
+The project answers one key question:
+
+**Why did our AWS costs increase?**
+
+The solution combines **cost monitoring, operational monitoring, and security logging** to determine whether unexpected spending is caused by legitimate business growth, an operational mistake, or potentially suspicious activity.
 
 ## Business Problem
 
-OakForge Solutions lacks visibility into AWS spending
-and wants to receive alerts before costs become a problem.
+Unexpected AWS costs can result from:
 
-## Objective
+- Legitimate increases in business traffic
+- Accidental resource deployments
+- Unused or oversized resources
+- Potentially compromised credentials
 
-Build a cost monitoring and budget alert system using AWS.
+OakForge needs a way to detect unusual spending and investigate its root cause.
+
+## Solution
+
+The platform connects AWS cost data with operational and security visibility.
+
+​```mermaid
+flowchart TD
+    A[AWS Resources] --> B[AWS Cost Data]
+    A --> C[Resource Activity]
+    A --> D[Security Events]
+
+    B --> E[Cost Explorer]
+    B --> F[AWS Budgets]
+    B --> G[Cost Anomaly Detection]
+
+    C --> H[CloudTrail]
+    C --> I[CloudWatch]
+
+    D --> J[GuardDuty]
+
+    E --> K[Investigation]
+    F --> K
+    G --> K
+    H --> K
+    I --> K
+    J --> K
+
+    K --> L[Legitimate Growth]
+    K --> M[Operational Error]
+    K --> N[Potential Security Incident]
+​```
 
 ## AWS Services
 
-- AWS Budgets
-- AWS Cost Explorer
-- Amazon SNS
-- IAM
+| Service | Purpose |
+|---|---|
+| AWS Cost Explorer | Analyze cloud spending |
+| AWS Budgets | Set spending thresholds |
+| Cost Anomaly Detection | Detect unusual spending |
+| Amazon CloudWatch | Monitor resources, metrics, logs, and alerts |
+| AWS CloudTrail | Track AWS API activity |
+| Amazon GuardDuty | Detect potential security threats |
+| AWS IAM | Manage identities and permissions |
+| Amazon SNS | Deliver notifications |
 
-## Architecture
+## Investigation & Incident Response
 
-Coming soon.
+The project uses two related processes.
+
+### General Investigation Flow
+
+This is the initial triage process used for every cost anomaly:
+
+**Detect → Identify → Investigate → Classify → Respond**
+
+A detected anomaly is investigated using cost data, CloudWatch activity, CloudTrail events, and GuardDuty findings.
+
+The activity is then classified as:
+
+- ✅ Legitimate growth
+- ⚠️ Operational error
+- 🚨 Potential security incident
+
+Not every cost anomaly is a security incident.
+
+### Level 3 Incident Response
+
+If an investigation confirms a serious security incident, the project follows a more detailed six-stage response lifecycle:
+
+**Detect → Validate → Investigate → Contain → Remediate → Recover / Review**
+
+This separation prevents legitimate cost increases or simple operational mistakes from being treated as security incidents.
+
+## Test Scenarios
+
+### 1. Legitimate Business Growth
+Increased business traffic causes higher AWS resource usage and spending.
+
+**Expected outcome:** The increase is validated as legitimate business activity.
+
+### 2. Accidental Deployment
+Unnecessary or oversized resources cause an unexpected cost increase.
+
+**Expected outcome:** The responsible resource and activity are identified and remediated.
+
+### 3. Potential Security Incident
+Suspicious activity results in unexpected AWS resource usage.
+
+**Expected outcome:** The activity is investigated and, if confirmed as a security incident, contained and remediated.
+
+## Security Controls
+
+| Control | Purpose |
+|---|---|
+| IAM Least Privilege | Limit access to only what users and services require |
+| MFA | Protect privileged identities |
+| CloudTrail | Provide accountability for AWS API activity |
+| CloudWatch | Monitor AWS resources and operational activity |
+| GuardDuty | Detect potential malicious activity |
+| Resource Tagging | Improve resource and cost visibility |
+| Credential Management | Reduce risks associated with compromised credentials |
+
+## Cost Safeguards
+
+- Configure an AWS Budget before deployment
+- Use appropriately sized resources
+- Avoid unnecessary high-cost services
+- Configure appropriate log retention
+- Remove temporary resources after testing
+- Review AWS costs after each scenario
+- Perform a final resource audit
 
 ## Implementation
 
-Coming soon.
+The project will be built incrementally:
 
-## Testing
+1. Build the OakForge AWS environment
+2. Establish cost visibility
+3. Configure AWS Budgets
+4. Configure Cost Anomaly Detection
+5. Integrate CloudTrail
+6. Integrate CloudWatch
+7. Enable GuardDuty
+8. Build the investigation workflow
+9. Test the three scenarios
+10. Document results and lessons learned
 
-Coming soon.
+Detailed implementation documentation will be maintained in the `docs` directory.
 
-## Evidence
+## Skills Demonstrated
 
-Coming soon.
+AWS Cloud · Cloud Cost Management · Cloud Security · IAM · EC2 · CloudWatch · CloudTrail · GuardDuty · AWS Budgets · Cost Anomaly Detection · Monitoring · Incident Investigation · Cloud Governance
 
-## Lessons Learned
+## OakForge Transformation
 
-Coming soon.
+This project represents the first stage of OakForge's AWS cloud transformation:
+
+**Cost Visibility → Operational Visibility → Security Awareness**
+
+Future OakForge projects will extend the transformation into:
+
+**Secure Infrastructure → Resilience → Automation → Application Modernization → Data & AI**
