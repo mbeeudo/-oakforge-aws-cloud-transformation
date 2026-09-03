@@ -55,20 +55,20 @@ flowchart TD
     K --> M["⚠️ Operational Error"]
     K --> N["🚨 Potential Security Incident"]
 
-    style A fill:#87CEEB,stroke:#4a90a4,color:#ffffff,stroke-width:2px
-    style B fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
-    style C fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
-    style D fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
-    style E fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
-    style F fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
-    style G fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
-    style H fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
-    style I fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
-    style J fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
-    style K fill:#800080,stroke:#4d004d,color:#ffffff,stroke-width:2px
-    style L fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px
-    style M fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px
-    style N fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px
+    style A fill:#87CEEB,stroke:#4a90a4,color:#ffffff,stroke-width:2px,font-weight:bold
+    style B fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px,font-weight:bold
+    style C fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px,font-weight:bold
+    style D fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px,font-weight:bold
+    style E fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px,font-weight:bold
+    style F fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px,font-weight:bold
+    style G fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px,font-weight:bold
+    style H fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px,font-weight:bold
+    style I fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px,font-weight:bold
+    style J fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px,font-weight:bold
+    style K fill:#800080,stroke:#4d004d,color:#ffffff,stroke-width:2px,font-weight:bold
+    style L fill:#00FF00,stroke:#008000,color:#ffffff,stroke-width:2px,font-weight:bold
+    style M fill:#FFFF00,stroke:#999900,color:#ffffff,stroke-width:2px,font-weight:bold
+    style N fill:#FF0000,stroke:#990000,color:#ffffff,stroke-width:2px,font-weight:bold
 ```
 
 ## 🧰 AWS Services
